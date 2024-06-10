@@ -23,15 +23,6 @@
                 sum2 = sum1;
             }
         }
-
-        if (sum1 > sum2)
-        {
-            Console.WriteLine($"MaxSum: {sum1}");
-        }
-        else
-        {
-            Console.WriteLine($"MaxSum: {sum2}");
-        }
-
+        Console.WriteLine($"MaxSum: {sum2}");
     }
 }
